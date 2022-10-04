@@ -1,0 +1,307 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    width: 100%;
+    height: 12vh;
+}
+nav {
+    width: 100%;
+    font-size: 28px;
+    position: fixed !important;
+    background-color: rgba(246, 255, 0, 0.281);
+    z-index: 2;
+}
+.nav-link {
+    margin-right: 10px;
+}
+.navbar.navbar-expand-lg.navbar-light :hover {
+    color: rgb(255, 0, 0);
+}
+.intro {
+    width: 100%;
+    height: calc(100% - 96px);
+}
+.intro-photo {
+    background-image: url(../img/adriano4.jpg);
+    position: relative;
+    width: 100%;    
+    height: 100vh;
+    background-size: 100%;
+}
+.intro-title {
+    margin-left: 7%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+}
+h1 {
+    padding: 10px;
+    color: red;
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'The Nautigal', cursive;
+    transition: 1s;
+    cursor: pointer;
+}
+.carousel {
+    height: 100vh;
+}
+h1:hover {
+    transform: scale(1.2);
+    color: rgb(254, 140, 0);
+}
+.my-carousel::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.item {
+    height: 100vh;
+    background-size: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.adriano-1 {
+    background-image: url(../img/adriano.jpg);
+}
+.adriano-2 {
+    background-image: url(../img/adriano2.jpg);
+}
+.adriano-3 {
+    background-image: url(../img/adriano3.jpg);
+}
+.adriano-4 {
+    background-image: url(../img/adriano5.jpg);
+}
+.adriano-button {
+    text-align: center;
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    transform: translateY(-75);
+    background-color: #1a73e852;
+    padding: 0 20%;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    padding: 10px 15px;
+    transition: box-shadow .08s linear,min-width .15s cubic-bezier(0.4,0,0.2,1);
+    text-decoration: none;
+}
+.owl-dots {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 1%;
+}
+.owl-dots span {
+    width: 20px !important;
+    height: 20px !important;
+}
+.owl-dots button {
+    border: none !important;
+    outline: none !important;
+}
+.owl-nav button {
+    border: none !important;
+    outline: none !important;
+}
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50);
+    color: #fff !important;
+    font-size: 60px !important;
+    font-weight: bolder !important;
+    background: none;
+}
+.owl-prev {
+    left: 1%;
+}
+.owl-next {
+    right: 1%;
+}
+/*about html*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.tabs {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url(../img/bg.jpg);
+    height: 100%;
+}
+.tea, .coffe , .dessert, .sneck {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.tab-photo {
+    height: 300px;
+    width: 25%;
+}
+.tabs-descr {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'The Nautigal', cursive;
+    font-size: 70px;
+}
+.price {
+    color: red;
+}
+.tabs-links {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(160, 93, 52);
+    border-radius: 15px 15px 0 0;
+    padding: 25px;
+}
+.tabs-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+}
+.tabs-content {
+    margin: auto;
+    width: 80%;
+    background-color: rgb(238, 203, 65);
+    border-radius: 0 0 15px 15px;
+}
+ul {
+    padding-left: 25px;
+}
+/*about*/
+.about {
+    height: 100%;
+    background-image: url(../img/fon.jpg);
+    padding-top: 95px;
+    padding-bottom: 30px;
+}
+.about-us {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    background-color: #000000a4;
+    border-radius: 15px;
+}
+.about-title {
+    margin: auto;
+    padding-top: 60px;
+    text-align: center;
+    font-size: 70px;
+    color: red;
+    font-family: 'The Nautigal', cursive;       
+}
+.staf-title {
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(255, 191, 0);
+    font-family: 'The Nautigal', cursive;      
+}
+.our-staf, .our-guest {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 75px;
+    padding-bottom: 75px;
+}
+.staff-img, .guest-img {
+    width: 30%;
+    border: 5px solid rgba(255, 146, 5, 0.504);
+    border-radius: 20px;
+}
+.staff-descr, .guest-descr {
+    text-align: center;
+    font-size: 40px;
+    color: rgb(250, 79, 79);
+    font-family: 'The Nautigal', cursive;  
+}
+
+
+/* contacts*/
+.contact {
+    height: 100%;
+    text-align: center;
+    color: red;
+    background-color: rgba(187, 131, 35, 0.727);
+}
+.contact-title {
+    padding-top: 100px;
+    font-size: 50px;
+}
+.contact-descr {
+    padding: 50px 0;
+    font-size: 30px;
+}
+.social {
+    display: flex;
+    width: 60%;
+    margin: auto;
+    /* background-color: rgba(255, 162, 0, 0.51);
+    border-radius: 50px; */
+    margin-bottom: 15px;
+}
+.social-media-1 {
+    width: 50%;
+    background-color: rgba(255, 162, 0, 0.707);
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 25px;
+}
+.soc-img {
+    width: 55%;
+}
+.soc-img1 {
+    width: 30%;
+}
+/*footer*/
+
+.footer {
+    width: 100%;
+    height: 15vh;
+    background-image: url(../img/footer.jpg);
+    background-size: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-contact {
+width: 90%;
+margin: auto;
+background-image: url(../img/footer.jpg);
+background-size: contain;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.footer-left {
+color: white;
+font-size: 14px;
+}
+.footer-img {
+width: 90px;
+}
